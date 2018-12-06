@@ -1,6 +1,6 @@
 """
-This script uses the newton raphson method to solve s system of non-linear equations
-Like with the univariate approach this is an itterative method which relies on the tangent of the n-dimensional surface
+This script uses the newton raphson method to solve a system of non-linear equations
+Like with the univariate approach this is an itterative method which relies on the tangent of an n-dimensional surface
 This tangent is described by the jacobian of the system of equations
 
 The equations for Newtons Multivariate method are:
@@ -11,7 +11,7 @@ x is the current guess for the solution
 J is the jacobian of the system of linear equations
 F(x) is the solution to the system of equations using the current guess
 
-We solve for s using Guassian elimiation and then use this to update the guess for s
+We solve for s using Guassian elimiation and then use this to update the guess for x
 """
 
 import numpy as np
